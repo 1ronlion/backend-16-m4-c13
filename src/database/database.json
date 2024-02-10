@@ -1,0 +1,45 @@
+{
+	"users": {
+		"administrators": [
+			{
+				"username": "kgarcia",
+				"password": "1234",
+				"id": "a6fd7085-526d-4c2d-8997-c5963f8a215f",
+				"role": "admin"
+			},
+			{
+				"username": "Mara",
+				"password": "12345648978",
+				"id": "aad62eb7-e55c-434e-b99a-f0ee4f5dbd81",
+				"role": "admin"
+			}
+		],
+		"teachers": [
+			{
+				"username": "pciruela",
+				"password": "12344321",
+				"id": "91fbf2c6-4bbe-4da7-9812-3e409a7dbd94",
+				"role": "teacher",
+				"numSubjects": ["Math", "Geography", "History"],
+				"birthyear": 1950
+			},
+			{
+				"username": "Ciruela",
+				"password": "12345648978",
+				"id": "3e07e4c3-25eb-46b6-a4de-f6319aa643ca",
+				"role": "teacher",
+				"numSubjects": ["Math", "Geometry"]
+			}
+		],
+		"students": [
+			{
+				"username": "jdoe",
+				"password": "4321",
+				"id": "0d78aac4-2d25-4dcd-812d-ee898c10986c",
+				"role": "student",
+				"numSubjects": ["Software Development", "Programming"],
+				"birthyear": 1990
+			}
+		]
+	}
+}
